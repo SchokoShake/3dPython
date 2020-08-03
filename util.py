@@ -37,7 +37,7 @@ def rotation_matrix_from_vectors(vec1, vec2):
 
 
 def rotate_mesh_flat(mesh):
-    """ Align directions of greatest variance with axis
+    """ Align directions of greatest variance with x and y axis respectivly
     :param mesh: 3D model
     :return: 3D model rotated to align biggest eigenvector with x axis and second biggest eigenvector with y axis
     """
